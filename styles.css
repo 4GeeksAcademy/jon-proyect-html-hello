@@ -1,0 +1,33 @@
+body {
+    background-color: gainsboro;
+}
+.titulo{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 20px;
+}
+.postalConteiner {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.postal {
+    background-color: azure;
+    width: 500px;
+    height: 560px;
+    margin: 30px;
+}
+.postalHeader {
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.postalBody {
+    padding: 10px;
+}
+
